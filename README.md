@@ -60,8 +60,8 @@ Good:
     futureOfVoid.then((_) => print('Operation complete.'));
 ```
 
-- DON’T use a leading underscore for identifiers that aren’t private.
-- DON’T use prefix letters.
+- Don't use a leading underscore for identifiers that aren’t private.
+- Don't use prefix letters.
 
 ```dart
 Good:
@@ -98,10 +98,12 @@ Good:
 
 ## Formatting
 
-change your code to make it more formatter-friendly, The formatter does the best it can with whatever code you throw at it, but it can’t work miracles. If your code has particularly long identifiers, deeply nested expressions, a mixture of different kinds of operators, etc. the formatted output may still be hard to read.
+Change your code to make it more formatter-friendly, The formatter does the best it can with whatever code you throw at it, but it can’t work miracles. If your code has particularly long identifiers, deeply nested expressions, a mixture of different kinds of operators, etc. the formatted output may still be hard to read.
 
-- avoid lines longer than 80 characters.
-- use curly braces for all flow control statements.
+When that happens, reorganize or simplify your code. Consider shortening a local variable name or hoisting out an expression into a new local variable. In other words, make the same kinds of modifications that you’d make if you were formatting the code by hand and trying to make it more readable. Think of `dart format` as a partnership where you work together, sometimes iteratively, to produce beautiful code.
+
+- Avoid lines longer than 80 characters.
+- Use curly braces for all flow control statements.
 
 ```dart
 Good:
