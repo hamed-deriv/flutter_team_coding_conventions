@@ -10,8 +10,6 @@ Software programmers are highly recommended to follow these guidelines to help i
 
 ## Code Style
 
----
-
 ## Identifiers
 
 Identifiers come in three flavors in Dart:
